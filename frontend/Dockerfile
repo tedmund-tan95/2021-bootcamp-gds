@@ -1,4 +1,5 @@
-FROM node:14
+# Replace `node:14` with `node:14-alpine`
+FROM node:14-alpine
 
 ARG user="node"
 ARG appdir="/home/node/app"
