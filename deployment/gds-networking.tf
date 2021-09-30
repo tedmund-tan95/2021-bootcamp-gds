@@ -132,4 +132,5 @@ resource "aws_security_group_rule" "allow_all_egress" {
     "0.0.0.0/0"
   ]
   description = "Allows all egress"
-}*/
+}
+*/
