@@ -1,3 +1,4 @@
+/*
 /******************************************************************
   EC2 for Backend Services
 ******************************************************************/
@@ -30,3 +31,4 @@ output "backend_url" {
   value = aws_instance.gds_backend_ec2.public_ip
   description = "The URL of the backend application"
 }
+*/
