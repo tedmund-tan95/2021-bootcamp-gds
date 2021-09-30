@@ -1,8 +1,10 @@
-/*
+
 /******************************************************************
   DEFINE VPC, Subnets, IGW
   1. We will not use NAT Gateway because it costs money
 ******************************************************************/
+
+/*
 resource "aws_vpc" "gds_vpc" {
   cidr_block = "10.0.0.0/16"
 
@@ -130,5 +132,4 @@ resource "aws_security_group_rule" "allow_all_egress" {
     "0.0.0.0/0"
   ]
   description = "Allows all egress"
-}
-*/
+}*/

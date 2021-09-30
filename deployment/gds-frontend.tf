@@ -1,10 +1,12 @@
-/*
+
 /******************************************************************
   Front End Components
 ******************************************************************/
 /*
 S3 Bucket for Frontend Webpage
 */
+
+/*
 // Random ID
 resource "random_id" "react_frontend_id" {
   byte_length = 8
